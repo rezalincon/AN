@@ -1713,7 +1713,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 
 #Top_bar .menu li ul {
 	position: absolute;
-	left: 7px;
+	left: -24px;
 	top: 100%;
 	z-index: 205;
 	margin: 0;
@@ -1727,8 +1727,9 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 	-webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.03);
 }
 #Top_bar .menu li ul li {
-	padding: 6px;
-	width: 190px;
+	padding: 0px;
+	font-size: 15px;
+	width: 268px;
 	position: relative;
 	font-weight: normal;
 }
