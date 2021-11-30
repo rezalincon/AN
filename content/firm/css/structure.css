@@ -2051,8 +2051,8 @@ body.header-below:not(.template-slider) #Header {
 /**/
 
 .header-stack.header-center #Top_bar .logo {
-	text-align: left;
-	margin-left:-135px;
+	text-align: center;
+	
 }
 .header-stack.header-right #Top_bar .logo {
 	text-align: right;
