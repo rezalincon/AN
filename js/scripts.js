@@ -1168,8 +1168,8 @@ jQuery(document).ready(function() {
 	 * --------------------------------------------------------------------------- */
 	if ((typeof(window.mfn_prettyphoto) !== 'undefined' && !window.mfn_prettyphoto.disable)) {
 		jQuery('a[rel^="prettyphoto"],a.woocommerce-main-image.zoom, .prettyphoto, a[data-rel^="prettyPhoto[product-gallery]"]').prettyPhoto({
-			default_width: window.mfn_prettyphoto.width ? window.mfn_prettyphoto.width : 500,
-			default_height: window.mfn_prettyphoto.height ? window.mfn_prettyphoto.height : 344,
+			default_width: window.mfn_prettyphoto.width ? window.mfn_prettyphoto.width : 888,
+			default_height: window.mfn_prettyphoto.height ? window.mfn_prettyphoto.height : 501,
 			show_title: false,
 			deeplinking: false,
 			social_tools: false

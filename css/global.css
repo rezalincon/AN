@@ -40,6 +40,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	scroll-behavior: smooth;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -4118,10 +4119,12 @@ body.table-hover:not(.woocommerce-page) table tr:hover td {
 	opacity: 1
 }
 .content_slider.carousel a.slider_prev {
-	left: -70px
+	left: 13px !important;
+	color: #000 !important;
 }
 .content_slider.carousel a.slider_next {
-	right: -70px
+	right: 13px !important;
+	color: #000 !important;
 }
 /* Navigation visibility */
 
@@ -14458,9 +14461,10 @@ a.pp_expand, a.pp_contract {
 	z-index: 20000;
 }
 a.pp_close {
-	position: absolute;
-	right: 0;
-	top: 0;
+	position: relative;
+	
+	top: -532px;
+	left: 880px;
 	display: block;
 	line-height: 22px;
 	text-indent: -10000px;
@@ -14492,6 +14496,7 @@ div.ppt {
 }
 div.pp_default .pp_content, div.light_rounded .pp_content {
 	background-color: #fff;
+	height: 509px !important;
 }
 div.pp_default #pp_full_res .pp_inline, div.light_rounded .pp_content .ppt, div.light_rounded #pp_full_res .pp_inline, div.light_square .pp_content .ppt, div.light_square #pp_full_res .pp_inline, div.facebook .pp_content .ppt, div.facebook #pp_full_res .pp_inline {
 	color: #000;
@@ -19323,7 +19328,7 @@ body:not(.with_aside) .portfolio_group.list .portfolio-item .portfolio-item-fw-w
 	vertical-align: bottom
 }
 .logo-no-margin #Top_bar .logo {
-	margin-left: 0!important;
+	margin-left: -77px!important;
 	padding: 0!important
 }
 .logo-no-margin.header-plain #Top_bar .logo {
